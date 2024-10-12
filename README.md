@@ -3,6 +3,8 @@
 ## Project Overview
 This web app was built as a project for school. The web app is built with Angular and allows users to interact with a world map. Users can click on a country to display information about the country fetched from the World Bank API. This project demonstrates how to dynamically use external APIs with Angular to fetch data.
 
+You can access the live application here: [Interactive World Map](https://abarnesdev.github.io/interactive-map-project/)
+
 ### Technologies Used
 * Angular
 * TypeScript
