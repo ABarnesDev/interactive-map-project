@@ -1,0 +1,29 @@
+<div id="home">
+
+  <p>This interactive world map provides information on every country in the world. Just click on a country to learn more about it.</p>
+
+  <div id="mapDiv">
+
+    <svg-icon src="map.svg" (click)="selectCountry($event)"></svg-icon>
+
+    <div id="countryInfo">
+
+      @if (country$ | async; as country) {
+        <h2>{{country.countryData.name}}</h2>
+        <ul>
+          <li><strong>Capital</strong>: {{country.countryData.capitalCity}}</li>
+          <li><strong>Region</strong>: {{country.countryData.region.value}}</li>
+          <li><strong>Population (2023)</strong>: {{country.population | number}}</li>
+          <li><strong>Income Level</strong>: {{country.countryData.incomeLevel.value}}</li>
+          <li><strong>Longitude</strong>: {{country.countryData.longitude}}</li>
+          <li><strong>Latitude</strong>: {{country.countryData.latitude}}</li>
+        </ul>
+      } @else {
+        <h2>Country Information</h2>
+        <p>Click on a country to learn more about it.</p>
+      }
+
+      <span>Data provided by the <a href="https://www.worldbank.org/">World Bank API</a>.</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+header {
+  background-color: rgb(36, 36, 52);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+header h1 {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  margin: 0;
+}

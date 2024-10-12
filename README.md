@@ -1,27 +1,36 @@
-# InteractiveWorldMap
+# Interactive Map Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+## Project Overview
+This web app was built as a project for school. The web app is built with Angular and allows users to interact with a world map. Users can click on a country to display information about the country fetched from the World Bank API. This project demonstrates how to dynamically use external APIs with Angular to fetch data.
 
-## Development server
+### Technologies Used
+* Angular
+* TypeScript
+* HTML/CSS
+* World Bank API
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting Started
 
-## Code scaffolding
+### Prerequisites
+* Node.js and npm
+* Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Installation
+1. Clone the repository
+    ```shell
+    git clone https://github.com/ABarnesDev/interactive-map-project.git
+    ```
+2. Install the dependencies by navigating to the project's folder and running the following command:
+    ```shell
+    npm install
+    ```
 
-## Build
+### Running the Application
+1. Navigate to the project's folder and run the following command:
+  ```shell
+  npm run start
+  ```
+2. Open a browser and navigate to http://localhost:4200 to view the application.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## How to Use
+Click on any country on the map to display information about that country.
